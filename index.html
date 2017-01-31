@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Random Quote Generator</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/random-quote-generator.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/random-quote-generator.js"></script>
+  </head>
+  <body>  
+    <div id="quoteDiv" class="container"> 
+        <div class="row text-justify">
+          <blockquote id="blockQuote">
+            <div class="col-xs-1"> <i id="qLeft" class="fa fa-quote-left" aria-hidden="true"></i> </div>
+            <div class="col-xs-10"><p id="quote"></p></div>
+            <div class="col-xs-1"> <i id="qRight" class="fa fa-quote-right" aria-hidden="true"></i> </div> 
+            <div class="col-xs-12"><footer id="author" class="text-right"> <cite title="Source Title"><Source Title</cite></footer></div>
+          </blockquote>
+        </div><br><br>
+        <div class="row">
+          <div class="col-xs-6"><a id="hrefTwitter" target="_blank"><button id="btnTwitter" class="btn btn-primary"><i class="fa fa-twitter"></i></button></a></div>
+          <div class="col-xs-6"><button id="btnNext" class="btn pull-right"> <b>Next</b> </button></div>
+        </div>
+          
+    </div>
+
+
+  </body>
+</html>
